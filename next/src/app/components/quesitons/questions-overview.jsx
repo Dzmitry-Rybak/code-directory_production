@@ -42,7 +42,7 @@ export const QuestionsOverview = memo(function QuestionsOverview({memorizedQuest
         </div>
         <div className={stylesUi.overview__questions}>
             <div className={stylesUi.overview__descr}>
-                Here, you'll discover a set of <span>{questionsCount}</span> questions and answers, complete with code examples, designed to aid in your interview preparation and enhance your proficiency in <span>{programmingLang.name}</span>.
+                Here, you'll discover a set of <span>{questionsCount}</span> questions and answers, complete with code examples, created to assist you in preparing for your interview and enhance your proficiency in <span>{programmingLang.name}</span>.
             </div>
             <div className={stylesUi.range__state}>
                 <ul className={stylesUi.range__lists}>

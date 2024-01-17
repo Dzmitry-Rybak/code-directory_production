@@ -10,17 +10,18 @@ const QuestionAddFormPage = () => {
         <div className="center-container">
                 <div className={styles.form__wrapper}>
                     <div className={styles.form}>
-                        <h2 className={styles.form__title}>YOU CAN HELP</h2>
-                        <p>
-                            "Welcome! Ready to contribute? Please sign in first. Our community thrives on sharing knowledge and supporting each other with questions and insights on various programming languages.<br/><br/>
+                        <h2 className={styles.form__title}>YOUR OWN QUESTION</h2>
+                        <p className={styles.form_descr}>
+                        Welcome to the team! 🌟 Ready to make a difference? To save changes be sure to <a className={styles.form_link} href="">Sign in</a> to our dynamic community thriving on mutual support in the realm of programming languages.<br/>
                             <br/>
-                            Here’s how you can make an impact:
-                            <br/>
-                            · Pose your programming puzzles or share your knowledge by submitting questions.<br/><br/>
-                            · Offer your expertise by providing comprehensive answers.<br/><br/>
-                            · Enhance understanding by accompanying your queries and explanations with illustrative images.<br/><br/>
-                            · We appreciate your commitment to enriching this knowledge hub for developers!"
+                            Here's your path to influence:
                         </p>
+                        <ol className={styles.form_descr}>
+                                <li>• Share your expertise through insightful questions. 🧠 </li>
+                                <li>• Provide comprehensive answers. 🚀</li>
+                                <li>• Your dedication to enriching this knowledge hub for developers is truly appreciated! 👏</li>
+                                <li>• Your question may be added to the common database. 🎨</li>
+                        </ol>
                     </div>
 
                     <hr/>

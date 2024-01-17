@@ -34,10 +34,10 @@ const Dashboard = () => {
     return (
         <div className='center-container'>
             <div className={styles.logout__wrapper}>
-                <h2>Hi</h2>
-                <p>Your journey of discovery awaits! Don't miss a beat—keep nurturing your curiosity and expanding your horizons with us. 🧠✨
+                <h2>Hello</h2>
+                <p>Code-directory: a free online platform with questions on popular programming languages. Study, mark, add questions, and create your learning experience. 🧠✨
                 <br/><br/> 
-                If you're looking to switch lanes, 'Change Account is your gateway. Ready to wrap up? 'Log Out' and take a well-earned rest. Keep soaring high with your studies!"</p>
+                Log out - exit and save data.🚪💾 <br /> Delete account - conclude all and permanently delete the account.🗑️🔒"</p>
                 <div className={styles.logout__buttons}>
                         <button
                         className={buttonStyles.submit__button}
@@ -51,9 +51,8 @@ const Dashboard = () => {
                 <a href="mailto:codedirectoryapp@gmail.com" className='footer__mail'>CodeDirectoryApp@gmail.com</a>
             </div>
             <Modal show={showModal}>
-                    <h2>Come back when you're ready</h2>
-                    <br />
-                    <p>"Logout was successful. Thank you for using our service. We'll be waiting for you again. Until we meet again!"</p>
+                    <h2>Come back when you're ready.</h2>
+                    <p>"Logout complete. Appreciate your use of our service. 🚀"</p>
             </Modal>
         </div>
     )

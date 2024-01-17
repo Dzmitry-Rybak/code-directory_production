@@ -13,25 +13,24 @@ export const metadata = {
         template: '%s | Code Directory',
         default: 'Code Directory',
     },
-    description: 'Explore questions on popular programming languages, find detailed answers, and access code examples for interview preparation. Contribute by adding your own questions and sharing experiences, creating a comprehensive reference for programmers.',
-    metadataBase: new URL('https://code-directory.com'), // исправить
-    keywords: ['Python', 'React', 'JavaScript', 'Interview'],
+    description: 'Code-directory is a unique free online platform that provides an extensive catalog of questions and answers for popular programming languages. Study, mark, add questions, and create your learning experience.',
+    metadataBase: new URL('https://code-directory.com'),
+    keywords: ['Python', 'React', 'JavaScript', 'Git', 'programming', 'Interview'],
     referrer: 'origin-when-cross-origin',
     openGraph: {
-        images: 'Add!',
-    },
-    robots: {
-        index: true,
-        follow: true,
-        nocache: true,
-        googleBot: {
-          index: true,
-          follow: true,
-          noimageindex: true,
-          'max-video-preview': -1,
-          'max-image-preview': 'large',
-          'max-snippet': -1,
-        },
+        title: 'Code-Directory',
+        description: 'Code-directory is a unique free online platform that provides an extensive catalog of questions and answers for popular programming languages. Study, mark, add questions, and create your learning experience.',
+        url: 'https://code-directory.com',
+        siteName: 'Code-Directory.com',
+        images: [
+          {
+            url: 'https://code-directory.com/og.png',
+            width: 800,
+            height: 600,
+          },
+        ],
+        locale: 'en_US',
+        type: 'website',
       },
 };
 

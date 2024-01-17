@@ -82,9 +82,8 @@ export const SignInForm = () => {
                 </Form>
             </Formik>
             <Modal show={showModal}>
-                    <h2>Welcome back!</h2>
-                    <br />
-                    <p>Don't forget to add the questions you're interested in and start your preparation.</p>
+                <h2>Successfully!</h2>
+                <p>You can also add questions that interest you and begin your preparation.</p>
             </Modal>
         </>
     )
@@ -173,9 +172,8 @@ export const SignUpForm = () => {
                 </Form>
             </Formik>
             <Modal show={showModal}>
-                <h2>Welcome!</h2>
-                <br />
-                <p>Don't forget to add the questions you're interested in and start your preparation.</p>
+                <h2>Successfully!</h2>
+                <p>You can also add questions that interest you and begin your preparation.</p>
             </Modal>
         </>
     )

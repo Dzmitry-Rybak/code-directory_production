@@ -3,6 +3,9 @@ import styles from '@/app/styles/form.module.scss';
 
 export const metadata = {
     title: 'Sign in',
+    robots: {
+        index: false,
+      },
 };
 
 const SignInPage = () => {

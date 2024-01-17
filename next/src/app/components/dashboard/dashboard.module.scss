@@ -19,8 +19,16 @@
             }
         }
         p {
+            line-height: 24px;
             @media (max-width: 576px) {
                 font-size: 12px;
+            }
+        }
+        a {
+            margin-top: 5px;
+            text-decoration: underline;
+            &:hover {
+                color: #404b41;
             }
         }
     }

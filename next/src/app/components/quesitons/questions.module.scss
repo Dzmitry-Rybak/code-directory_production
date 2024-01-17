@@ -2,16 +2,12 @@
 
 .questions {
     &__list {
-        // width: 50%;
         height: 100vh;
         overflow: auto;
         padding: 15px;
         text-align: justify;
         border-radius: 10px;
         background: linear-gradient(145deg, #c2c2c2, #a3a3a3);
-        // @media (max-width: 1200px) {
-        //     width: 45%;
-        // }
         @media (max-width: 992px) {
             width: 100%;
             height: calc((var(--vh, 1vh) * 100) - 95px);
@@ -19,6 +15,11 @@
         }
         @media (max-width: 576px) {
             height: calc((var(--vh, 1vh) * 100) - 88.5px);
+        }
+        p {
+            width: 95%;
+            line-height: 25px;
+            margin: 0 auto;
         }
     }
     &__item {
@@ -42,24 +43,6 @@
             font-size: 13px;
         }
     }
-    // &__language {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     margin-top: 20px;
-    //     margin-bottom: 20px;
-    //     @media (max-width: 1200px) {
-    //         margin-top: 0px;
-    //         margin-bottom: 10px;
-    //     }
-    // }
-    // &__title {
-    //     color: #fff;
-    //     margin-right: 10px;
-    // }
-    // &__icon {
-    //     height: 40px;
-    // }
 }
 
 .repeat {
@@ -69,21 +52,3 @@
 .memorized {
     color: #556B2F;
 }
-// .message {
-//     padding: 20px;
-//     border-radius: 5px;
-//     font-size: 16px;
-//     color: #333;
-//     &-heading {
-//         font-size: 18px;
-//         font-weight: bold;
-//         margin-bottom: 10px;
-//     }
-//     &-content {
-//         margin-bottom: 10px;
-//     }
-//     &-emoji {
-//         font-size: 24px;
-//         margin-right: 5px;
-//     }
-// }

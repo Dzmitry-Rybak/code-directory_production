@@ -20,7 +20,7 @@ export const QuestionsVisible = ({questions, repeatQuestion, memorizedQuestions,
             <div className={stylesQuestions.questions__list}>
                 <ol>
                     {questions.length === 0 ? (
-                        <p>No questions added yet. To start revising, add the questions you're interested in, and they will appear here.</p>
+                        <p>No questions to review at the moment. Mark the questions you'd like to revisit in the future, and they will appear here for your convenience!💡</p>
                     ) :                     
                     questions.map(item => {
                         const itemId = item.question_id;                  
@@ -64,6 +64,9 @@ export const QuestionsHidden = ({questions, repeatQuestion, memorizedQuestions, 
                                 filter={filter}
                             />
                             <div className={stylesQuestions.questions__list}>
+                            {questions.length === 0 ? (
+                                <p>No questions to review at the moment. Mark the questions you'd like to revisit in the future, and they will appear here for your convenience!💡</p>
+                            ) :     
                             <ol>                                
                                 {questions.map(item => {
                                     const itemId = item.question_id;    
@@ -81,7 +84,7 @@ export const QuestionsHidden = ({questions, repeatQuestion, memorizedQuestions, 
                                                     onSelectQuestionsId(itemId)
                                                     onToggleBurger()}}>{item.question}</li>
                                 })}
-                            </ol>
+                            </ol>}        
                         </div>
                         </div>
                         <div className={stylesUi.blur}/>
